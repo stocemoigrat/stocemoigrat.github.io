@@ -8,16 +8,24 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <style>
+html {
+  font-size: 10px;
+}
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
+  font-size: 1.8rem;
   color: white;
   background-color: #090909;
   margin: 0px;
 }
 
+/* Small devices (portrait tablets and large phones) */
+@media only screen and (max-width: 768px) {
+  html {font-size: 8px;}
+}
+
 .material-icons {
-  font-size: 22px;
+  font-size: 2.2rem;
   vertical-align: bottom;
   margin-right: 4px;
   -webkit-user-select: none; /* Safari */
@@ -44,7 +52,7 @@ body {
   user-select: none; /* Standard syntax */
 }
 .navBar i {
-  font-size: 40px;
+  font-size: 4rem;
   margin-right: 12px;
 }
 .left {
@@ -58,8 +66,8 @@ body {
 
 /* Style the player count buttons */
 .btn {
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
   border: none;
   border-radius: 50%;
   outline: none;
@@ -81,12 +89,12 @@ body {
 
 /* Style the sort toggle */
 .switch {
-  width: 90px;
-  height: 40px;
+  width: 9rem;
+  height: 4rem;
   position: relative;
   display: inline-block;
   font-family: 'Material Icons';
-  font-size: 30px;
+  font-size: 3rem;
   color: #aaa;
 }
 .switch input {
@@ -103,18 +111,18 @@ body {
   bottom: 0;
   border-radius: 100px;
   background-color: #555;
-  padding: 5px;
+  padding: 0.5rem;
 }
 .slider:after { /*sliding element*/
   border-radius: 50%;
   position: absolute;
   text-align: center;
   font-family: 'Material Icons';
-  font-size: 30px;
+  font-size: 3rem;
   content: "extension";
-  padding-top: 5px;
-  height: 35px;
-  width: 40px;
+  padding-top: 0.5rem;
+  height: 3.5rem;
+  width: 4rem;
   left: 0px;
   bottom: 0px;
   background-color: #fff;
@@ -126,22 +134,22 @@ body {
   position: absolute;
   text-align: center;
   font-family: 'Material Icons';
-  font-size: 30px;
+  font-size: 3rem;
   content: "access_time";
-  height: 35px;
-  width: 40px;
-  left: 50px;
+  height: 3.5rem;
+  width: 4rem;
+  left: 5rem;
   color: #aaa;
 }
 input:checked + .slider:after {
-  -webkit-transform: translateX(50px);
-  -ms-transform: translateX(50px);
-  transform: translateX(50px);
+  -webkit-transform: translateX(5rem);
+  -ms-transform: translateX(5rem);
+  transform: translateX(5rem);
   content: "access_time";
 }
 
 .collection {
-  margin-top: 80px;
+  margin-top: 8rem;
   text-align: center;
   width: 100%;
 }
@@ -152,14 +160,14 @@ input:checked + .slider:after {
   border-style: solid;
   border-color: #777;
   border-width: 1px;
-  margin: 15px;
+  margin: 1.5rem;
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
   border-radius: 5%;
-  width: 250px;
-  height: 250px;
+  width: 25rem;
+  height: 25rem;
   display: none;
   overflow: hidden;
 }
