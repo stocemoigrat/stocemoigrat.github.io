@@ -48,7 +48,23 @@ games[games.length] = {
 var collection = document.getElementById("collection");
 games.forEach(addGame);
 
+var infoWindow = document.getElementById("fullInfoWindow");
+
 function addGame(game) {
 	collection.innerHTML += '<div class="card" style="background-image: url(\'images/' + game.imageName + '\');"><div class="cardInfo w' + Math.floor(game.weight) + '"><div><i class="material-icons">access_time</i>' + game.timeToPlay + '</div><div>' + game.type + '</div><div><i class="material-icons">extension</i>' + game.weight + '</div></div></div>';
+}
+
+function openWindow() {
+	infoWindow.style.display = 'flex';
+}
+
+function closeWindow() {
+	infoWindow.style.display = 'none';
+}
+
+window.onclick = function(event) {
+  if (event.target == infoWindow) {
+    infoWindow.style.display = 'none';
+  }
 }
 

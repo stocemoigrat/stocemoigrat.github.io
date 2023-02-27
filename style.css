@@ -176,7 +176,7 @@ body {
 }
 .windowContent {
 	position: relative;
-	width: min(80%, 1000px);
+	width: min(100%, 1000px);
 	max-height: 90%;
 	background-color: #222;
 	border: 1px solid #777;
