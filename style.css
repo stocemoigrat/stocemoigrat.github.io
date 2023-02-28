@@ -10,7 +10,7 @@ html {
 
 /* Small devices (portrait tablets and large phones) */
 @media only screen and (max-width: 764px) {
-  html {font-size: 7px;}
+  html {font-size: 6px;}
 }
 
 /* Tiny devices (small phones) */
@@ -45,6 +45,7 @@ body {
 }
 
 .material-icons {
+	font-size: inherit;
 	vertical-align: bottom;
 	padding-right: 0.2rem;
 	-webkit-user-select: none; /* Safari */
@@ -55,6 +56,9 @@ body {
 	vertical-align: middle;
 	padding-right: 0px;
 	font-size: 3.3rem;
+}
+.cardInfo .material-icons {
+	font-size: min(2.6vw, 2.4rem);
 }
 
 .navBar {
@@ -241,12 +245,16 @@ body {
 .playerCount {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
 	grid-template-areas: 
-	"all all all"
-	"rec dic best";
-	gap: 1rem 0;
+	"all all"
+	"rec best";
 	text-align: center;
+	gap: 10px 0;
+}
+.playerCountAll {
+	grid-area: all;
+	border-bottom: 1px solid #aaa;
+	padding-bottom: 8px;
 }
 .playerCountLabels {
 	display: grid;
@@ -276,7 +284,8 @@ a {
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 1rem 2rem;
-	padding: 1.6rem 0px;
+	padding-top: 1.2rem;
+	padding-bottom: 2rem;
 }
 .tags span {
 	text-align: center;
@@ -291,9 +300,9 @@ a {
 }
 .text i {
 	display: inline-block;
+	width: 100%;
 	text-align: center;
 	color: #999;
-	padding: 0px 7rem;
 }
 .exp {
 	padding-top: 0.6rem;
