@@ -95,12 +95,124 @@ games[games.length] = {
 	expansions: [],
 	description: "Players are divided into two teams, each with a Spymaster as the team's leader. Only the Spymasters know which words belong to which team, so they must guide their team to pick the correct ones. They give one-word clues that can point to multiple words in the grid and their teammates try to guess the correct words while avoiding those that belong to the opposing team. The first team to guess all of their words wins!"
 };
+games[games.length] = {
+	name: "Cryptid",
+	imageName: "cryptid.jpg", imagePosition: "",
+	bggLink: "https://boardgamegeek.com/boardgame/246784/cryptid",
+	weight: 2,
+	timeToPlay: "1h", timeToPlayNum: 60,
+	timeToLearn: "15", timeToLearnNum: 15,
+	playerCount: [3, 4, 5],
+	recPlayerCount: [3, 4, 5],
+	bestPlayerCount: [4],
+	coop: false,
+	type: "deduction",
+	tags: ["deduction", "pattern recogntion"],
+	expansions: [],
+	description: ""
+};
+games[games.length] = {
+	name: "Dixit",
+	imageName: "dixit.jpg", imagePosition: "",
+	bggLink: "https://boardgamegeek.com/boardgame/92828/dixit-odyssey",
+	weight: 1,
+	timeToPlay: "50", timeToPlayNum: 50,
+	timeToLearn: "10", timeToLearnNum: 10,
+	playerCount: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+	recPlayerCount: [4, 5, 6, 7, 8, 9, 10, 11, 12],
+	bestPlayerCount: [6],
+	coop: false,
+	type: "party",
+	tags: ["party", "storytelling"],
+	expansions: ["Harmonies", "Revelations"],
+	description: ""
+};
+games[games.length] = {
+	name: "Dune: Imperium",
+	imageName: "duneimperium.jpg", imagePosition: "",
+	bggLink: "https://boardgamegeek.com/boardgame/316554/dune-imperium",
+	weight: 3,
+	timeToPlay: "2h", timeToPlayNum: 160,
+	timeToLearn: "30", timeToLearnNum: 30,
+	playerCount: [1, 2, 3, 4],
+	recPlayerCount: [1, 2, 3, 4],
+	bestPlayerCount: [3, 4],
+	coop: false,
+	type: "strategy",
+	tags: ["strategy", "worker placement", "deck-building", "conflict"],
+	expansions: ["Rise of Ix", "Immortality"],
+	description: ""
+};
+games[games.length] = {
+	name: "Gloom",
+	imageName: "gloom.jpg", imagePosition: "background-position-x: left;",
+	bggLink: "https://boardgamegeek.com/boardgame/12692/gloom",
+	weight: 1.5,
+	timeToPlay: "1h", timeToPlayNum: 60,
+	timeToLearn: "10", timeToLearnNum: 10,
+	playerCount: [2, 3, 4, 5],
+	recPlayerCount: [2, 3, 4, 5],
+	bestPlayerCount: [4],
+	coop: false,
+	type: "party",
+	tags: ["party", "take that"],
+	expansions: [],
+	description: ""
+};
+games[games.length] = {
+	name: "Love Letter",
+	imageName: "loveletter.jpg", imagePosition: "background-position-y: bottom;",
+	bggLink: "https://boardgamegeek.com/boardgame/277085/love-letter",
+	weight: 1,
+	timeToPlay: "20", timeToPlayNum: 20,
+	timeToLearn: "10", timeToLearnNum: 10,
+	playerCount: [2, 3, 4, 5, 6],
+	recPlayerCount: [3, 4, 5, 6],
+	bestPlayerCount: [4],
+	coop: false,
+	type: "party",
+	tags: ["party", "deduction", "player elimination"],
+	expansions: [],
+	description: ""
+};
+games[games.length] = {
+	name: "Paint the Roses",
+	imageName: "painttheroses.jpg", imagePosition: "background-position-y: bottom;",
+	bggLink: "https://boardgamegeek.com/boardgame/253759/paint-roses",
+	weight: 2,
+	timeToPlay: "1h", timeToPlayNum: 60,
+	timeToLearn: "15", timeToLearnNum: 15,
+	playerCount: [2, 3, 4, 5],
+	recPlayerCount: [2, 3, 4, 5],
+	bestPlayerCount: [4],
+	coop: true,
+	type: "deduction",
+	tags: ["deduction", "pattern recognition", "limited communication"],
+	expansions: [],
+	description: ""
+};
+games[games.length] = {
+	name: "The Search for Planet X",
+	imageName: "planetx.jpg", imagePosition: "",
+	bggLink: "https://boardgamegeek.com/boardgame/279537/search-planet-x",
+	weight: 2,
+	timeToPlay: "1.5h", timeToPlayNum: 90,
+	timeToLearn: "20", timeToLearnNum: 20,
+	playerCount: [1, 2, 3, 4],
+	recPlayerCount: [1, 2, 3, 4],
+	bestPlayerCount: [2, 3],
+	coop: false,
+	type: "deduction",
+	tags: ["deduction"],
+	expansions: [],
+	description: ""
+};
 
 var collection = document.getElementById("collection");
 games.forEach(addGame);
 
 function addGame(game, index) {
-	collection.innerHTML += '<div class="card" id="' + index + '" onclick="openWindow(this)" style="background-image: url(\'images/' + game.imageName + '\');"><div class="cardInfo w' + Math.floor(game.weight) + '"><div><i class="material-icons">access_time</i>' + game.timeToPlay + '</div><div>' + game.type + '</div><div><i class="material-icons">extension</i>' + game.weight + '</div></div></div>';
+	collection.innerHTML += '<div class="card" id="' + index + '" onclick="openWindow(this)" style="background-image: url(\'images/' + game.imageName + '\');' + game.imagePosition + '"><div class="cardInfo w' + Math.floor(game.weight) + '"><div><i class="material-icons">access_time</i>' + game.timeToPlay + '</div><div>' + game.type + '</div><div><i class="material-icons">extension</i>' + game.weight + '</div></div></div>';
 }
 
 var infoWindow = document.getElementById("fullInfoWindow");
