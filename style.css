@@ -3,20 +3,20 @@ html {
 	height:100%;
 }
 
-/* Medium devices (Tablets) 
+/* Medium devices (Tablets) */
 @media only screen and (max-width: 850px) {
   html {font-size: 9px;}
 }
 
-/* Small devices (portrait tablets and large phones) 
+/* Small devices (portrait tablets and large phones) */
 @media only screen and (max-width: 764px) {
   html {font-size: 6px;}
 }
 
-/* Tiny devices (small phones) 
+/* Tiny devices (small phones) */
 @media only screen and (max-width: 400px) {
   html {font-size: 6px;}
-}*/
+}
 
 * {
 	box-sizing: border-box;
@@ -54,7 +54,7 @@ body {
 .navBar .material-icons {
 	vertical-align: middle;
 	padding-right: 0px;
-	font-size: 3.3rem;
+	font-size: 4rem;
 }
 .cardInfo .material-icons {
 	padding-right: 0.2rem;
@@ -76,19 +76,23 @@ body {
 	z-index: 1;
 	position: relative;
 	display: inline-block;
+	font-size: 2.2rem;
 }
 .dropdownMenu {
 	display: grid;
 	justify-content: start;
 	position: absolute;
 	top: 2rem;
-	padding-top: 2rem;
+	padding-top: 2.4rem;
 	width: 100%;
 	border-radius: 1rem;
 	background-color: #555;
 }
 .dropdownButton {
-	padding-bottom: 0.5rem;
+	padding: 0.8rem;
+}
+.dropdownButton:hover {
+	background-color: #888;
 }
 
 .button {
@@ -96,6 +100,7 @@ body {
 	border-radius: 1rem;
 	background-color: #555;
 	color: #aaa;
+	padding-left: 0.8rem;
 }
 .button:hover {
 	background-color: #666;
@@ -110,7 +115,7 @@ body {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, min(calc(calc(100% - 4rem) / 3), 25rem));
 	grid-auto-rows: max-content;
-	gap: 2rem;
+	gap: 1.6rem;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 	justify-content: center;
