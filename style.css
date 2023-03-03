@@ -70,6 +70,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding: 1rem 1.5rem;
+	font-size: 3rem;
 }
 
 
@@ -78,10 +79,10 @@ body {
 	grid-template-columns: max-content max-content;
 	overflow: hidden;
 	border-radius: 1rem;
-	height: 3.4rem;
+	height: 4.4rem;
 }
 .radioButtonContainer .material-icons {
-	font-size: 2.6rem;
+	font-size: 3.4rem;
 }
 .radioButton {
 	height: 100%;
@@ -100,16 +101,12 @@ body {
 }
 
 .playerCountContainer {
-	display: inline-grid;
-	grid-template-columns: auto auto;
-	gap: 0.7rem;
-	align-items: center;
+	display: inline-block;
 }
 .dropdownContainer {
 	z-index: 1;
 	display: inline-block;
 	position: relative;
-	font-size: 2.2rem;
 }
 .dropdownButton {
 	position: relative;
@@ -117,9 +114,9 @@ body {
 	background-color: #eee;
 	color: #222;
 	padding-left: 1rem;
-	padding-right: 0.2rem;
-	width: 7.5rem;
-	height: 3.4rem;
+	padding-right: 0.4rem;
+	width: 9rem;
+	height: 4.4rem;
 	display: grid;
 	grid-template-columns: 1fr auto;
 	align-content: start;
@@ -129,13 +126,13 @@ body {
 	overflow: hidden;
 	position: absolute;
 	top: 1.5rem;
-	padding-top: 2rem;
+	padding-top: 3rem;
 	width: 100%;
 	border-radius: 1rem;
 	background-color: #555;
 }
 .dropdownMenuButton {
-	padding: 1rem 0;
+	padding: 2rem 0;
 	text-align: center;
 	width: 100%;
 	border-top: 1px #222 solid;
