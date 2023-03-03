@@ -436,6 +436,37 @@ function toggleDropdown() {
 	}
 }
 
+// sort by time or weight
+sortGames('time');
+sortGames('weight');
+
+function sortGames(sortBy) {
+	let toSort = Array.prototype.slice.call(collection.children, 0); //  turn NodeList to array
+	
+	if (sortBy == 'time') {
+		toSort.sort(function(a, b) {
+			return games[a.id].timeToPlayNum - games[b.id].timeToPlayNum;
+		});
+	} else if (sortBy == 'weight') {
+		toSort.sort(function(a, b) {
+			return games[a.id].weight - games[b.id].weight;
+		});
+	}
+
+	collection.innerHTML = "";
+	for(var i = 0, l = toSort.length; i < l; i++) {
+	collection.appendChild(toSort[i]);
+	}
+}
+function sortButtonClicked(sortBy, clickedButton) {
+	let buttons = clickedButton.parentElement.children;
+	for (let i = 0; i < buttons.length; i++) {
+		buttons[i].classList.remove('active');
+	}
+	clickedButton.classList.add('active');
+	sortGames(sortBy);
+}
+
 var infoWindow = document.getElementById("fullInfoWindow");
 var infoWindowName = document.getElementById("name");
 var infoWindowCover = document.getElementById("cover");
@@ -443,7 +474,7 @@ var infoWindowPhoto = document.getElementById("photo");
 var infoWindowWeight = document.getElementById("weight");
 var infoWindowTimeToLearn = document.getElementById("timeToLearn");
 var infoWindowTimeToPlay = document.getElementById("timeToPlay");
-
+var playerCounts = document.getElementById("playerCount").children;
 var infoWindowExpansions = document.getElementById("expansions");
 var infoWindowTags = document.getElementById("tags");
 var infoWindowDescription = document.getElementById("description");
@@ -483,8 +514,10 @@ function openWindow(card) {
 
 	infoWindowTimeToLearn.innerHTML = game.timeToLearn;
 	infoWindowTimeToPlay.innerHTML = game.timeToPlay;
-	
-	//TODO player count
+
+	playerCounts[0].innerHTML = '<i class="material-icons">group</i> ' + game.playerCount[0] + (game.playerCount.length > 1 ? '-' + game.playerCount[game.playerCount.length - 1] : '');
+	playerCounts[1].innerHTML = '<i class="material-icons">group</i> ' + game.recPlayerCount[0] + (game.recPlayerCount.length > 1 ? '-' + game.recPlayerCount[game.recPlayerCount.length - 1] : '');
+	playerCounts[2].innerHTML = '<i class="material-icons">group</i> ' + game.bestPlayerCount[0] + (game.bestPlayerCount.length > 1 ? '-' + game.bestPlayerCount[game.bestPlayerCount.length - 1] : '');
 	
 	if (game.expansions.length) {
 		infoWindowExpansions.parentElement.style.display = 'inline';

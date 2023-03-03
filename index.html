@@ -31,6 +31,13 @@
 			<button class="dropdownButton" onclick="toggleDropdown()"><span id="playerCountLabel">any</span><span>⏷</span></button>
 		</div>
 	</div>
+	<div class="sortContainer">
+		<i class="material-icons">format_line_spacing</i>
+		<div class="radioButtonContainer">
+			<button class="radioButton active" onclick="sortButtonClicked('weight', this)"><i class="material-icons">extension</i></button>
+			<button class="radioButton" onclick="sortButtonClicked('time', this)"><i class="material-icons">access_time</i></button>
+		</div>
+	</div>
 </div>
 
 <div id="collection">
@@ -54,7 +61,7 @@
 					</div>
 				</div>
 				
-				<div class="box playerCount">
+				<div class="box" id="playerCount">
 					<span class="playerCountAll"><i class="material-icons">group</i> 2-6</span>
 					<span><i class="material-icons">group</i> 5-6</span>
 					<span><i class="material-icons">group</i> 6</span>
