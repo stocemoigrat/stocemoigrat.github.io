@@ -19,16 +19,16 @@
 	<div class="playerCountContainer">
 		<i class="material-icons">group</i>
 		<div class="dropdownContainer">
-			<div class="dropdownMenu">
-				<button class="dropdownButton active" onclick="filterSelection('any')">any</button>
-				<button class="dropdownButton" onclick="filterSelection('3')">3</button>
-				<button class="dropdownButton" onclick="filterSelection('4')">4</button>
-				<button class="dropdownButton" onclick="filterSelection('5')">5</button>
-				<button class="dropdownButton" onclick="filterSelection('6')">6</button>
-				<button class="dropdownButton" onclick="filterSelection('7')">7</button>
-				<button class="dropdownButton" onclick="filterSelection('8+')">8+</button>
+			<div class="dropdownMenu" id="playerCountDropdown" style="display:none;">
+				<button class="dropdownMenuButton active" onclick="filterSelection('any')">any</button>
+				<button class="dropdownMenuButton" onclick="filterSelection(3)">3</button>
+				<button class="dropdownMenuButton" onclick="filterSelection(4)">4</button>
+				<button class="dropdownMenuButton" onclick="filterSelection(5)">5</button>
+				<button class="dropdownMenuButton" onclick="filterSelection(6)">6</button>
+				<button class="dropdownMenuButton" onclick="filterSelection(7)">7</button>
+				<button class="dropdownMenuButton" onclick="filterSelection('8+')">8+</button>
 			</div>
-			<button class="button active">any<i class="material-icons">arrow_drop_down</i></button>
+			<button class="dropdownButton" onclick="toggleDropdown()"><span id="playerCountLabel">any</span><span>⏷</span></button>
 		</div>
 	</div>
 </div>

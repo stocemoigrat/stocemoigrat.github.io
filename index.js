@@ -403,8 +403,37 @@ games[games.length] = {
 var collection = document.getElementById("collection");
 games.forEach(addGame);
 
+// add a game card to the collection view
 function addGame(game, index) {
 	collection.innerHTML += '<div class="card" id="' + index + '" onclick="openWindow(this)" style="background-image: url(\'images/' + game.imageName + '\');' + game.imagePosition + '"><div class="cardInfo w' + Math.floor(game.weight) + '"><div><i class="material-icons">access_time</i>' + game.timeToPlay + '</div><div>' + game.type + '</div><div><i class="material-icons">extension</i>' + game.weight + '</div></div></div>';
+}
+
+
+var playerCountDropdown = document.getElementById("playerCountDropdown");
+var playerCountLabel = document.getElementById("playerCountLabel");
+
+// filter by player count
+function filterSelection(count) {
+	playerCountLabel.innerHTML = count;
+	if (count == "8+") count = 8;
+	let cards = document.getElementsByClassName("card");
+	
+	for (let i = 0; i < cards.length; i++) {
+		if (count == 'any' || games[cards[i].id].recPlayerCount.includes(count)) {
+			cards[i].style.display = 'inline-block';
+		} else {
+			cards[i].style.display = 'none';
+		}
+	}
+	toggleDropdown();
+}
+	
+function toggleDropdown() {
+	if (playerCountDropdown.style.display == 'none') {
+		playerCountDropdown.style.display = 'block';
+	} else {
+		playerCountDropdown.style.display = 'none';
+	}
 }
 
 var infoWindow = document.getElementById("fullInfoWindow");
@@ -479,8 +508,10 @@ function closeWindow() {
 }
 
 document.querySelector('body').onclick = function(event) {
-  if (event.target == infoWindow) {
-    infoWindow.style.display = 'none';
-  }
+	if (event.target == infoWindow) {
+		infoWindow.style.display = 'none';
+	} else if (playerCountDropdown.style.display != 'none' && !playerCountDropdown.parentElement.contains(event.target)) {
+		playerCountDropdown.style.display = 'none';
+	}
 }
 
