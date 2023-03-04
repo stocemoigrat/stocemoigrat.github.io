@@ -28,14 +28,14 @@
 				<button class="dropdownMenuButton" onclick="filterSelection(7)">7</button>
 				<button class="dropdownMenuButton" onclick="filterSelection('8+')">8+</button>
 			</div>
-			<button class="dropdownButton" onclick="toggleDropdown()"><span id="playerCountLabel">any</span><span>⏷</span></button>
+			<button class="dropdownButton" onclick="toggleDropdown()"><span id="playerCountLabel">any</span><i class="material-icons">arrow_drop_down</i></button>
 		</div>
 	</div>
 	<div class="sortContainer">
 		<i class="material-icons">format_line_spacing</i>
 		<div class="radioButtonContainer">
-			<button class="radioButton active" onclick="sortButtonClicked('weight', this)"><i class="material-icons">extension</i></button>
 			<button class="radioButton" onclick="sortButtonClicked('time', this)"><i class="material-icons">access_time</i></button>
+			<button class="radioButton active" onclick="sortButtonClicked('weight', this)"><i class="material-icons">extension</i></button>
 		</div>
 	</div>
 </div>
@@ -72,7 +72,7 @@
 				</div>
 				
 				<div class="box">
-					Owned epansions:<br>
+					Owned expansions:<br>
 					<div class="text" id="expansions"></div>
 				</div>
 			</div>
