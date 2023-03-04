@@ -77,7 +77,7 @@ games[games.length] = {
 	type: "deduction",
 	tags: ["deduction", "limited communication"],
 	expansions: [],
-	description: "<i>A heinous crime has been committed! Can your team solve it before the famous Sherlock Holmes?</i><br><br>You and your fellow detectives must gather enough evidence by playing the right cards. The catch is: you hold your cards so that they're visible only to other players. To assist other players in playing a card, you must give them hints regarding the numbers or the colors of their cards. Players must act as a team to avoid errors and to solve the case before Sherlock Holmes does."
+	description: "<i>A heinous crime has been committed! Can your team solve it before the famous Sherlock Holmes?</i><br><br>You and your fellow detectives must gather enough evidence by playing the right cards. The catch is: you hold your cards so that they're visible only to other players. To assist other players in playing a card, you must give them hints regarding the numbers or the colors of their cards. Players must act as a team to avoid errors and to solve the case in the alloted number of rounds."
 };
 games[games.length] = {
 	name: "Codenames",
