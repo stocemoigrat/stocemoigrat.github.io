@@ -132,7 +132,7 @@ games[games.length] = {
 	imageName: "duneimperium.jpg", imagePosition: "",
 	bggLink: "https://boardgamegeek.com/boardgame/316554/dune-imperium",
 	weight: 3,
-	timeToPlay: "2h", timeToPlayNum: 160,
+	timeToPlay: "2h", timeToPlayNum: 120,
 	timeToLearn: "30", timeToLearnNum: 30,
 	playerCount: [1, 2, 3, 4],
 	recPlayerCount: [1, 2, 3, 4],
@@ -405,7 +405,9 @@ games.forEach(addGame);
 
 // add a game card to the collection view
 function addGame(game, index) {
-	collection.innerHTML += '<div class="card" id="' + index + '" onclick="openWindow(this)" style="background-image: url(\'images/' + game.imageName + '\');' + game.imagePosition + '"><div class="cardInfo w' + Math.floor(game.weight) + '"><div><i class="material-icons">access_time</i>' + game.timeToPlay + '</div><div>' + game.type + '</div><div><i class="material-icons">extension</i>' + game.weight + '</div></div></div>';
+	let coopText = '';
+	if (game.coop) coopText = '<div class="coop">co-op</div>';
+	collection.innerHTML += '<div class="card" id="' + index + '" onclick="openWindow(this)" style="background-image: url(\'images/' + game.imageName + '\');' + game.imagePosition + '"><div class="cardInfo w' + Math.floor(game.weight) + '">' + coopText + '<div><i class="material-icons">access_time</i>' + game.timeToPlay + '</div><div>' + game.type + '</div><div><i class="material-icons">extension</i>' + game.weight + '</div></div></div>';
 }
 
 

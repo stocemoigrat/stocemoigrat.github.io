@@ -184,7 +184,6 @@ body {
 	padding-left: 0.3rem;
 	padding-right: 0.5rem;
 	padding-bottom: 0.2rem;
-	overflow: hidden;
 	position: absolute;
 	bottom: 0px;
 }
@@ -202,6 +201,50 @@ body {
 }
 .cardInfo.w5 {
 	background-image: linear-gradient(to top, rgb(85, 0, 0) 25%, rgba(85, 0, 0, 0));
+}
+.coopTop {
+	position: absolute;
+	top: -400%;
+	left: 3%;
+	font-size: 90%;
+	line-height: 90%;
+	font-variant: small-caps;
+	font-weight: bold;
+	background-color: #E7808E;
+	border-radius: 0 0 1rem 1rem;
+	padding: 2% 4%;
+}
+.coopCorner {
+	position: absolute;
+	top: -400%;
+	left: 0;
+	font-size: 90%;
+	line-height: 90%;
+	font-variant: small-caps;
+	font-weight: bold;
+	background-color: #E7808E;
+	border-radius: 0 0 1rem 0;
+	padding: 2% 4%;
+}
+.coopL {
+	position: absolute;
+	bottom: 60%;
+	left: 0;
+	background-color: palevioletred;
+	border-radius: 0 1rem 1rem 0;
+	border: 0px solid #777;
+	border-left: none;
+	padding: 1% 2% 2% 1%;
+}
+.coop {
+	position: absolute;
+	bottom: 60%;
+	right: 0;
+	background-color: palevioletred;
+	border-radius: 1rem 0 0 1rem;
+	border: 0px solid #777;
+	border-right: none;
+	padding: 1% 1% 2% 2%;
 }
 
 #fullInfoWindow {
