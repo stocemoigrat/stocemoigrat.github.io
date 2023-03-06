@@ -232,7 +232,7 @@ body {
 	left: 0;
 	background-color: palevioletred;
 	border-radius: 0 1rem 1rem 0;
-	border: 0px solid #777;
+	border: 1px solid #777;
 	border-left: none;
 	padding: 1% 2% 2% 1%;
 }
@@ -242,8 +242,7 @@ body {
 	right: 0;
 	background-color: palevioletred;
 	border-radius: 1rem 0 0 1rem;
-	border: 0px solid #777;
-	border-right: none;
+	box-shadow: 0 4px 8px 0 rgba(50, 0, 0, 0.2), 0 6px 20px 0 rgba(50, 0, 0, 0.19);
 	padding: 1% 1% 2% 2%;
 }
 
