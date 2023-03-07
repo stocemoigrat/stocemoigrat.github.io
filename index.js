@@ -29,7 +29,7 @@ games[games.length] = {
 	type: "negotiation",
 	tags: ["negotiation", "trading", "economy", "asymmetric"],
 	expansions: [],
-	description: "<i>Nine species come together during the great Confluence. Their goal: to build a joint society where every species is equal and every innovation shared. Each wants their own ideals at the core of the growing society. What follows is the most aggressive cooperation the galaxy has ever seen.</i><br><br>Each player chooses one of the nine unique and asymmetrical alien races. Over the course of the game, each race must trade and negotiate with the rest to acquire the resource cubes necessary to fund their economy and allow it to produce goods for the next turn. Mutually beneficial agreements are key to success.<br>While technically a competitive game, Sidereal Confluence has a cooperative feel during the trading phase as no race has the ability to thrive on its own."
+	description: "<i>Nine species come together during the great Confluence. Their goal: to build a joint society where every innovation is shared. Each wants their own ideals at the core of the growing society. What follows is the most aggressive cooperation the galaxy has ever seen.</i><br><br>Each player chooses one of the nine unique and asymmetrical alien races. Over the course of the game, each race must trade and negotiate with the rest to acquire the resources necessary to fund their economy and allow it to produce goods for the next turn. Mutually beneficial agreements are key to success.<br>While technically a competitive game, Sidereal Confluence has a cooperative feel during the trading phase as no race has the ability to thrive on its own."
 };
 games[games.length] = {
 	name: "Unfathomable",
@@ -93,7 +93,7 @@ games[games.length] = {
 	type: "deduction",
 	tags: ["teams", "deduction", "limited communication"],
 	expansions: [],
-	description: "Players are divided into two teams, each with a Spymaster as the team's leader. Only the Spymasters know which words belong to which team, so they must guide their team to pick the correct ones. They give one-word clues that can point to multiple words in the grid and their teammates try to guess the correct words while avoiding those that belong to the opposing team. The first team to guess all of their words wins!"
+	description: "Players are divided into two teams, each with a Spymaster as the team's leader. Only the Spymasters know which words belong to which team, so they must guide their team to pick the correct ones. They give one-word clues that point to some of their words in the grid and their teammates try to guess correctly. The first team to guess all of their words wins!"
 };
 games[games.length] = {
 	name: "Cryptid",
@@ -109,7 +109,7 @@ games[games.length] = {
 	type: "deduction",
 	tags: ["deduction", "pattern recogntion"],
 	expansions: [],
-	description: ""
+	description: "A group of cryptozoologists are trying to deduce the location of the elusive Cryptid, but the glory of discovery is too rich to share. Each of them holds one piece of the evidence needed to find the Cryptid, and on their turn they can try to gain more information from their opponents. Be warned; giving away too much of what you know will give others a chance to beat you to the mysterious animal and claim the glory for themselves!"
 };
 games[games.length] = {
 	name: "Dixit",
