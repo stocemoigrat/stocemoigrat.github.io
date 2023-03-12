@@ -109,7 +109,7 @@ games[games.length] = {
 	type: "deduction",
 	tags: ["deduction", "pattern recogntion"],
 	expansions: [],
-	description: "A group of cryptozoologists are trying to deduce the location of the elusive Cryptid, but the glory of discovery is too rich to share. Each of them holds one piece of the evidence needed to find the Cryptid, and on their turn they can try to gain more information from their opponents. Be warned; giving away too much of what you know will give others a chance to beat you to the mysterious animal and claim the glory for themselves!"
+	description: "<i>A group of cryptozoologists are trying to deduce the location of the elusive Cryptid, but the glory of discovery is too rich to share.</i><br><br>Each of you holds one piece of the evidence needed to find the Cryptid, and on your turn you can try to gain more information from your opponents. Be warned; giving away too much of what you know will give others a chance to beat you to the mysterious animal and claim the glory for themselves!"
 };
 games[games.length] = {
 	name: "Dixit",
@@ -125,7 +125,7 @@ games[games.length] = {
 	type: "party",
 	tags: ["party", "storytelling"],
 	expansions: ["Harmonies", "Revelations"],
-	description: ""
+	description: "Each turn one player is the storyteller. This player secretly chooses one card in his hand, then gives a word or sentence to describe this card—but not too obviously. Each other player secretly chooses an appropriate card in hand and adds it to the mix. The storyteller then lays out the cards, and all other players vote on which card belongs to the storyteller. The storyteller scores points if some players (but not all) guess correctly, and others score points for guessing correctly and for getting votes on their card."
 };
 games[games.length] = {
 	name: "Dune: Imperium",
@@ -141,7 +141,7 @@ games[games.length] = {
 	type: "strategy",
 	tags: ["strategy", "worker placement", "deck-building", "conflict"],
 	expansions: ["Rise of Ix", "Immortality"],
-	description: ""
+	description: "Dune: Imperium blends deck-building and worker placement in a deeply thematic strategy game where the fate of your House hangs on your decisions. Will you seek political allies or rely upon military might? Economic strength or subtle intrigues? A council seat… or another agent? The cards are dealt. The choice is yours."
 };
 games[games.length] = {
 	name: "Gloom",
@@ -157,7 +157,7 @@ games[games.length] = {
 	type: "party",
 	tags: ["party", "take that"],
 	expansions: [],
-	description: ""
+	description: "Assume control of the fate of an eccentric family of misfits and misanthropes. The goal of the game is sad, but simple: you want your characters to suffer the greatest tragedies possible before passing on to the well-deserved respite of death. You'll play horrible mishaps like Pursued by Poodles or Crippled by Creditors on your own characters to lower their Self-Worth scores, while trying to cheer your opponents' characters with marriages and other happy occasions that pile on positive points. The player with the most miserable family wins."
 };
 games[games.length] = {
 	name: "Love Letter",
@@ -173,7 +173,7 @@ games[games.length] = {
 	type: "party",
 	tags: ["party", "deduction", "player elimination"],
 	expansions: [],
-	description: ""
+	description: "From a deck with only sixteen cards, each player starts with only one card in hand. On a turn, you draw one card, and play one card, trying to expose others and knock them from the game. The object is simple: be the last remaining player or the remaining player with the highest card in hand once the deck runs out."
 };
 games[games.length] = {
 	name: "Paint the Roses",
@@ -189,7 +189,7 @@ games[games.length] = {
 	type: "deduction",
 	tags: ["deduction", "pattern recognition", "limited communication"],
 	expansions: [],
-	description: ""
+	description: "<i>Off with their heads!</i><br><br>You and your friends are the newly appointed Royal Gardeners and your job is to finish the palace grounds according to the whims of the Queen of Hearts. Her whims are shared via cards, secret instructions each player is given into how the garden should be arranged. You can't say what your card shows, but by carefully placing a new shrub tile into the garden you are able to reveal clues. Her whims are always changing, so as soon as you solve one, a new one is in your hand. Use strategy, logic, and teamwork to finish the garden whilst staying one step ahead of the Queen!"
 };
 games[games.length] = {
 	name: "The Search for Planet X",
@@ -205,7 +205,7 @@ games[games.length] = {
 	type: "deduction",
 	tags: ["deduction"],
 	expansions: [],
-	description: ""
+	description: "<i>In 2015, astronomers estimated a large distant planet could explain the unique orbits of dwarf planets and other objects. Since then, astronomers have been scanning the sky, hoping to find this planet.</i><br><br>Players take on the role of astronomers who use observations and logical deductions to search for this hypothetical planet. Each game, an app generates a random arrangement of objects and a location for Planet X following predefined logic rules. Players use the app to scan the visible sky and attend conferences. As they gain information about the location of the objects, they mark that information on their deduction sheets. As players learn the locations of the various objects, they can start publishing theories and score points. As more and more objects are found, players narrow down the possible locations for Planet X. Can you be the first to find Planet X?"
 };
 games[games.length] = {
 	name: "Scythe",
@@ -219,9 +219,9 @@ games[games.length] = {
 	bestPlayerCount: [4],
 	coop: false,
 	type: "strategy",
-	tags: ["strategy", "engine-building", "asymmetric", "conflict"],
+	tags: ["strategy", "action-selection", "engine-building", "asymmetric", "conflict"],
 	expansions: ["Invaders from Afar", "Rise of Fenris", "Modular board"],
-	description: ""
+	description: "Lead your faction to power in a war-torn 1920s Eastern Europa.<br><br>Scythe uses a streamlined action-selection mechanism (no rounds or phases) to keep gameplay moving at a brisk pace and reduce downtime between turns. While there is plenty of direct conflict for those who seek it, there is no player elimination, nor can units be killed or destroyed.<br><br>Every part of Scythe has an aspect of engine-building to it. Players can upgrade actions to become more efficient, build structures that improve their position on the map, enlist new recruits to enhance character abilities, deploy mechs to deter opponents from invading, and expand their borders to reap greater types and quantities of resources. The order in which players improve their engine adds to the unique feel of each game, even when playing one faction multiple times."
 };
 games[games.length] = {
 	name: "Set",
@@ -237,7 +237,7 @@ games[games.length] = {
 	type: "party",
 	tags: ["party", "pattern recognition", "real-time"],
 	expansions: [],
-	description: "The best game."
+	description: "Race to find a set of three among the twelve cards."
 };
 games[games.length] = {
 	name: "The Shipwreck Arcana",
@@ -253,7 +253,7 @@ games[games.length] = {
 	type: "deduction",
 	tags: ["deduction", "math", "limited communication"],
 	expansions: [],
-	description: ""
+	description: "Players take turns playing Fate tokens according to rules found on an ever-changing tableau of arcana cards in order to convey information to the rest of the group. True mastery comes from reading the cards and making leaps of deduction and intuition. Sometimes a Fate will be obvious. Other times, you must rely on logic to eliminate possibilities and decide whether to risk a guess."
 };
 games[games.length] = {
 	name: "Spirit Island",
@@ -269,10 +269,10 @@ games[games.length] = {
 	type: "strategy",
 	tags: ["strategy", "area control", "asymmetric"],
 	expansions: ["Jagged Earth", "Branch & Claw", "Feather & Flame"],
-	description: ""
+	description: "<i>Magic still exists, embodied by spirits of the land, of the sky, and of every natural thing. As the colonists of Europe stretch their empires further and further, they will inevitably reach a place where spirits still hold power - and when they do, the land itself will fight back.</i><br><br>Players act as different spirits of the land, each with their own unique abilities, forced to defend their island home from colonizing Invaders. The Invaders expand across the island map in a semi-predictable way. Players must work together to puzzle out the best way to deal with both immediate and distant threats posed bu the invaders.<br><br>Spirit Island offers plenty of replayability with 24 unique spirits, various adversaries, scenarios, and difficulty levels."
 };
 games[games.length] = {
-	name: "Through the Ages: A New Story of Civilization",
+	name: "Through the Ages",
 	imageName: "throughtheages.jpg", imagePosition: "",
 	bggLink: "https://boardgamegeek.com/boardgame/182028/through-ages-new-story-civilization",
 	weight: 5,
@@ -285,7 +285,7 @@ games[games.length] = {
 	type: "strategy",
 	tags: ["strategy", "engine building", "conflict"],
 	expansions: [],
-	description: ""
+	description: "Each player attempts to build the best civilization through careful resource management, discovering new technologies, electing new leaders, building wonders, and maintaining a strong military. Weakness in any area can be exploited by your opponents. The game takes place throughout the ages beginning in the age of antiquity and ending in the modern age. Victory is achieved by the player whose nation has the most culture at the end of the modern age."
 };
 games[games.length] = {
 	name: "Trickerion",
@@ -301,7 +301,7 @@ games[games.length] = {
 	type: "strategy",
 	tags: ["strategy", "worker placement"],
 	expansions: ["Dawn of Technology", "Dahlgaard's Gifts", "Dahlgaard's Academy"],
-	description: ""
+	description: "Players take on the roles of Victorian-era magicians, each with a team of apprentices and specialists they can assign to various tasks using worker placement and simultaneous action selection. These tasks include collecting magical components, expanding your assortment of Tricks, and preparing magic shows to perform at the end of each round. The performances take place at the Theater in the form of a tile placement mini-game with lots of player interaction. Performing can earn you money, but ultimately, you are in it for Fame: the more famous you are, the better Tricks you can learn, and the Magician with the most Fame points will win the game.<br><br>The base game can be expanded with various optional rule modules and expansions to add further strategic depth to the game."
 };
 games[games.length] = {
 	name: "The Crew: Mission Deep Sea",
@@ -317,7 +317,7 @@ games[games.length] = {
 	type: "trick-taking",
 	tags: ["trick-taking", "limited communication"],
 	expansions: [],
-	description: ""
+	description: "At the beginning of each game of The Crew, players will be dealt various tasks, such as \"win the first 3 tricks\" or \"win a yellow 7\". The game proceeds with every player playing a single card from their hand to form a \"trick\", which is then taken by the player that played the highest value card of the leading or trump suit. To win, players must work as a team to complete all of their tasks before they run out of cards.<br><br>The Crew gradually ramps up the challenge through tasks of varying difficulty that introduce new concepts and expand existing ones."
 };
 games[games.length] = {
 	name: "Rococo",
@@ -333,7 +333,7 @@ games[games.length] = {
 	type: "strategy",
 	tags: ["strategy", "set collection", "deck-building", "area majority"],
 	expansions: ["Jewelry Box"],
-	description: ""
+	description: "You are the owner of a distinguished tailoring business endeavoring to increase your prestige. Each turn, you play an employee card that allows you to perform a task, such as hiring a new employee for your staff, tailoring exquisite gowns and frock coats to rent or sell, or funding some of the many decorations. However, employees are not always able to perform all tasks, so you must plan carefully how you direct them, especially as each employee grants a unique bonus — including some that generate prestige.<br><br>The Grand Ball ends after seven rounds with a huge fireworks display and final scoring. You will gain prestige points for the sumptuous gowns and frock coats you have rented out to guests at the ball, certain employee bonuses, and the festive decorations you have funded. Whoever has collected the most prestige at the end of the game wins."
 };
 games[games.length] = {
 	name: "Res Arcana",
@@ -349,7 +349,7 @@ games[games.length] = {
 	type: "strategy",
 	tags: ["strategy", "combo building", "race"],
 	expansions: ["Lux et Tenebrae"],
-	description: "Choose your mage, gather essences, craft unique artifacts, and use them to summon dragons, conquer places of power, and achieve victory!"
+	description: "<i>Choose your mage, gather essences, craft unique artifacts, and use them to summon dragons, conquer places of power, and achieve victory!</i><br><br>Each player is given a deck of only 8 cards (either randomized or drafted). Before the game begins, players get to inspect their deck, pick their mage, and plan out the most efficient path to getting points. During the game, players will generate and convert resources, trade them for new powers and victory points.<br><br>The game ends when at least one player reaches 10 points at the end of a round, and the player with the most points is deemed the most powerful mage!"
 };
 games[games.length] = {
 	name: "Sagrada",
