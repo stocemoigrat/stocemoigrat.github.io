@@ -13,21 +13,21 @@ games[games.length] = {
 	type: "negotiation",
 	tags: ["negotiation", "set collection", "trick-taking"],
 	expansions: [],
-	description: "<i>In Kings' Struggle, negotiation is king.</i><br><br>Over the course of 7 rounds, each player will play a single card per round. Most of the cards have powerful abilities that may be activated if a player chooses. Doing so could earn them gold, take other cards out of play, allow new cards to be played, etc. Players may use gold or future promises to negotiate with other players to try and influence how they use their card's ability. Analyzing who has the most to win or the most to lose from your current ability and leveraging it to your benefit is the key to success."
+	description: "<i>In Kings' Struggle, negotiation is king.</i><br><br>Over the course of 7 rounds, each player will play a single card per round. Most of the cards have powerful abilities that may be activated if the player chooses to do so. Doing so could earn them gold, take other cards out of play, allow new cards to be played, etc. Players may use gold or future promises to negotiate with other players to try and influence how they use their card's ability. Analyzing who has the most to win or the most to lose from your current ability and leveraging it to your benefit is the key to success."
 };
 games[games.length] = {
 	name: "Sidereal Confluence",
 	imageName: "sidereal.jpg", imagePosition: "",
 	bggLink: "https://boardgamegeek.com/boardgame/202426/sidereal-confluence",
 	weight: 3,
-	timeToPlay: "2.5h", timeToPlayNum: 150,
+	timeToPlay: "3h", timeToPlayNum: 180,
 	timeToLearn: "30", timeToLearnNum: 30,
 	playerCount: [4, 5, 6, 7, 8, 9],
 	recPlayerCount: [5, 6, 7, 8, 9],
 	bestPlayerCount: [6],
 	coop: false,
 	type: "negotiation",
-	tags: ["negotiation", "trading", "economy", "asymmetric"],
+	tags: ["negotiation", "trading", "real-time", "economy", "asymmetric"],
 	expansions: [],
 	description: "<i>Nine species come together during the great Confluence. Their goal: to build a joint society where every innovation is shared. Each wants their own ideals at the core of the growing society. What follows is the most aggressive cooperation the galaxy has ever seen.</i><br><br>Each player chooses one of the nine unique and asymmetrical alien races. Over the course of the game, each race must trade and negotiate with the rest to acquire the resources necessary to fund their economy and allow it to produce goods for the next turn. Mutually beneficial agreements are key to success.<br>While technically a competitive game, Sidereal Confluence has a cooperative feel during the trading phase as no race has the ability to thrive on its own."
 };
@@ -43,7 +43,7 @@ games[games.length] = {
 	bestPlayerCount: [5],
 	coop: false,
 	type: "hidden roles",
-	tags: ["hidden roles", "traitor", "thematic", "asymmetric"],
+	tags: ["hidden roles", "traitor", "thematic"],
 	expansions: [],
 	description: "<i>The year is 1913. The steamship SS Atlantica has set out on its voyage across the Atlantic Ocean. Its unsuspecting passengers are fully anticipating a calm journey. However, tensions rise when a body is discovered in the ship's chapel, signs of a strange ritual littered around the corpse.</i><br><br>Some players are humans who are fighting for the survival of the ship, while others are traitors sent aboard the ship by the Deep Ones to ensure that it never reaches port! Because player loyalties are hidden, determining who is friend and who is foe is critical to winning a thrilling game of Unfathomable."
 };
@@ -52,14 +52,14 @@ games[games.length] = {
 	imageName: "dune.jpg", imagePosition: "",
 	bggLink: "https://boardgamegeek.com/boardgame/283355/dune",
 	weight: 5,
-	timeToPlay: "5h+", timeToPlayNum: 301,
+	timeToPlay: "5h+", timeToPlayNum: 302,
 	timeToLearn: "1h", timeToLearnNum: 60,
 	playerCount: [2, 3, 4, 5, 6],
 	recPlayerCount: [5, 6],
 	bestPlayerCount: [6],
 	coop: false,
 	type: "strategy",
-	tags: ["area control", "alliances", "negotiation", "conflict", "thematic", "asymmetric"],
+	tags: ["strategy", "area control", "alliances", "negotiation", "conflict", "thematic", "asymmetric"],
 	expansions: [],
 	description: "<i>He who controls the spice controls the universe.</i><br><br>Take control of one of the factions attempting to control Dune. Each faction has special powers that overlook certain rules in the game. Each turn players move about the map attempting to pick up valuable spice while dealing with giant sandworms, deadly storms, and other players' military forces. A delicate political balance is formed amongst the factions to prevent any one side from becoming too strong. When a challenge is made in a territory, combat takes the form of hidden bids with additional treachery cards to further the uncertainty."
 };
@@ -107,7 +107,7 @@ games[games.length] = {
 	bestPlayerCount: [4],
 	coop: false,
 	type: "deduction",
-	tags: ["deduction", "pattern recogntion"],
+	tags: ["deduction", "pattern recogntion", "race"],
 	expansions: [],
 	description: "<i>A group of cryptozoologists are trying to deduce the location of the elusive Cryptid, but the glory of discovery is too rich to share.</i><br><br>Each of you holds one piece of the evidence needed to find the Cryptid, and on your turn you can try to gain more information from your opponents. Be warned; giving away too much of what you know will give others a chance to beat you to the mysterious animal and claim the glory for themselves!"
 };
@@ -165,7 +165,7 @@ games[games.length] = {
 	bggLink: "https://boardgamegeek.com/boardgame/277085/love-letter",
 	weight: 1,
 	timeToPlay: "20", timeToPlayNum: 20,
-	timeToLearn: "10", timeToLearnNum: 10,
+	timeToLearn: "5", timeToLearnNum: 5,
 	playerCount: [2, 3, 4, 5, 6],
 	recPlayerCount: [3, 4, 5, 6],
 	bestPlayerCount: [4],
@@ -173,14 +173,14 @@ games[games.length] = {
 	type: "party",
 	tags: ["party", "deduction", "player elimination"],
 	expansions: [],
-	description: "From a deck with only sixteen cards, each player starts with only one card in hand. On a turn, you draw one card, and play one card, trying to expose others and knock them from the game. The object is simple: be the last remaining player or the remaining player with the highest card in hand once the deck runs out."
+	description: "From a deck with only sixteen cards, each player starts with only one card in hand. On a turn, you draw one card and play one card, trying to expose others and knock them from the game. The object is simple: be the last remaining player or the remaining player with the highest card in hand once the deck runs out."
 };
 games[games.length] = {
 	name: "Paint the Roses",
 	imageName: "painttheroses.jpg", imagePosition: "background-position-y: bottom;",
 	bggLink: "https://boardgamegeek.com/boardgame/253759/paint-roses",
 	weight: 2,
-	timeToPlay: "1h", timeToPlayNum: 60,
+	timeToPlay: "1.5h", timeToPlayNum: 90,
 	timeToLearn: "15", timeToLearnNum: 15,
 	playerCount: [2, 3, 4, 5],
 	recPlayerCount: [2, 3, 4, 5],
@@ -189,7 +189,7 @@ games[games.length] = {
 	type: "deduction",
 	tags: ["deduction", "pattern recognition", "limited communication"],
 	expansions: [],
-	description: "<i>Off with their heads!</i><br><br>You and your friends are the newly appointed Royal Gardeners and your job is to finish the palace grounds according to the whims of the Queen of Hearts. Her whims are shared via cards, secret instructions each player is given into how the garden should be arranged. You can't say what your card shows, but by carefully placing a new shrub tile into the garden you are able to reveal clues. Her whims are always changing, so as soon as you solve one, a new one is in your hand. Use strategy, logic, and teamwork to finish the garden whilst staying one step ahead of the Queen!"
+	description: "<i>\"Off with their heads!\"</i><br><br>You and your friends are the newly appointed Royal Gardeners and your job is to finish the palace grounds according to the whims of the Queen of Hearts. Her whims are shared via cards, secret instructions each player is given into how the garden should be arranged. You can't say what your card shows, but by carefully placing a new shrub tile into the garden you are able to reveal clues. Her whims are always changing, so as soon as you solve one, a new one is in your hand. Use strategy, logic, and teamwork to finish the garden whilst staying one step ahead of the Queen!"
 };
 games[games.length] = {
 	name: "The Search for Planet X",
@@ -203,7 +203,7 @@ games[games.length] = {
 	bestPlayerCount: [2, 3],
 	coop: false,
 	type: "deduction",
-	tags: ["deduction"],
+	tags: ["deduction", "race"],
 	expansions: [],
 	description: "<i>In 2015, astronomers estimated a large distant planet could explain the unique orbits of dwarf planets and other objects. Since then, astronomers have been scanning the sky, hoping to find this planet.</i><br><br>Players take on the role of astronomers who use observations and logical deductions to search for this hypothetical planet. Each game, an app generates a random arrangement of objects and a location for Planet X following predefined logic rules. Players use the app to scan the visible sky and attend conferences. As they gain information about the location of the objects, they mark that information on their deduction sheets. As players learn the locations of the various objects, they can start publishing theories and score points. As more and more objects are found, players narrow down the possible locations for Planet X. Can you be the first to find Planet X?"
 };
@@ -219,9 +219,9 @@ games[games.length] = {
 	bestPlayerCount: [4],
 	coop: false,
 	type: "strategy",
-	tags: ["strategy", "action-selection", "engine-building", "asymmetric", "conflict"],
+	tags: ["strategy", "engine-building", "asymmetric", "conflict"],
 	expansions: ["Invaders from Afar", "Rise of Fenris", "Modular board"],
-	description: "Lead your faction to power in a war-torn 1920s Eastern Europa.<br><br>Scythe uses a streamlined action-selection mechanism (no rounds or phases) to keep gameplay moving at a brisk pace and reduce downtime between turns. While there is plenty of direct conflict for those who seek it, there is no player elimination, nor can units be killed or destroyed.<br><br>Every part of Scythe has an aspect of engine-building to it. Players can upgrade actions to become more efficient, build structures that improve their position on the map, enlist new recruits to enhance character abilities, deploy mechs to deter opponents from invading, and expand their borders to reap greater types and quantities of resources. The order in which players improve their engine adds to the unique feel of each game, even when playing one faction multiple times."
+	description: "<i>Lead your faction to power in a war-torn 1920s Eastern Europa.</i><br><br>Scythe uses a streamlined action-selection mechanism (no rounds or phases) to keep gameplay moving at a brisk pace and reduce downtime between turns. While there is plenty of direct conflict for those who seek it, there is no player elimination, nor can units be killed or destroyed.<br><br>Every part of Scythe has an aspect of engine-building to it. Players can upgrade actions to become more efficient, build structures that improve their position on the map, enlist new recruits to enhance character abilities, deploy mechs to deter opponents from invading, and expand their borders to reap greater types and quantities of resources. The order in which players improve their engine adds to the unique feel of each game, even when playing one faction multiple times."
 };
 games[games.length] = {
 	name: "Set",
@@ -243,7 +243,7 @@ games[games.length] = {
 	name: "The Shipwreck Arcana",
 	imageName: "shipwreckarcana.jpg", imagePosition: "",
 	bggLink: "https://boardgamegeek.com/boardgame/220517/shipwreck-arcana",
-	weight: 1,
+	weight: 1.5,
 	timeToPlay: "30", timeToPlayNum: 30,
 	timeToLearn: "10", timeToLearnNum: 10,
 	playerCount: [2, 3, 4, 5],
@@ -259,7 +259,7 @@ games[games.length] = {
 	name: "Spirit Island",
 	imageName: "spiritisland.jpg", imagePosition: "",
 	bggLink: "https://boardgamegeek.com/boardgame/162886/spirit-island",
-	weight: 3.5,
+	weight: 3,
 	timeToPlay: "2.5h", timeToPlayNum: 150,
 	timeToLearn: "30", timeToLearnNum: 30,
 	playerCount: [1, 2, 3, 4, 5, 6],
@@ -283,7 +283,7 @@ games[games.length] = {
 	bestPlayerCount: [3],
 	coop: false,
 	type: "strategy",
-	tags: ["strategy", "engine building", "conflict"],
+	tags: ["strategy", "engine-building", "conflict"],
 	expansions: [],
 	description: "Each player attempts to build the best civilization through careful resource management, discovering new technologies, electing new leaders, building wonders, and maintaining a strong military. Weakness in any area can be exploited by your opponents. The game takes place throughout the ages beginning in the age of antiquity and ending in the modern age. Victory is achieved by the player whose nation has the most culture at the end of the modern age."
 };
@@ -291,7 +291,7 @@ games[games.length] = {
 	name: "Trickerion",
 	imageName: "trickerion.jpg", imagePosition: "",
 	bggLink: "https://boardgamegeek.com/boardgame/255668/trickerion-collectors-edition",
-	weight: 5,
+	weight: 4.5,
 	timeToPlay: "3h", timeToPlayNum: 180,
 	timeToLearn: "1h", timeToLearnNum: 60,
 	playerCount: [1, 2, 3, 4],
@@ -301,7 +301,7 @@ games[games.length] = {
 	type: "strategy",
 	tags: ["strategy", "worker placement"],
 	expansions: ["Dawn of Technology", "Dahlgaard's Gifts", "Dahlgaard's Academy"],
-	description: "Players take on the roles of Victorian-era magicians, each with a team of apprentices and specialists they can assign to various tasks using worker placement and simultaneous action selection. These tasks include collecting magical components, expanding your assortment of Tricks, and preparing magic shows to perform at the end of each round. The performances take place at the Theater in the form of a tile placement mini-game with lots of player interaction. Performing can earn you money, but ultimately, you are in it for Fame: the more famous you are, the better Tricks you can learn, and the Magician with the most Fame points will win the game.<br><br>The base game can be expanded with various optional rule modules and expansions to add further strategic depth to the game."
+	description: "Players take on the roles of Victorian-era magicians, each with a team of apprentices and specialists they can assign to various tasks using worker placement and simultaneous action selection. These tasks include collecting magical components, expanding your assortment of Tricks, and preparing magic shows to perform at the end of each round. The performances take place at the Theater in the form of a tile placement mini-game with lots of player interaction. Performing can earn you money, but ultimately, you are in it for Fame: the more famous you are, the better Tricks you can learn, and the Magician with the most Fame points will win the game."
 };
 games[games.length] = {
 	name: "The Crew: Mission Deep Sea",
@@ -323,7 +323,7 @@ games[games.length] = {
 	name: "Rococo",
 	imageName: "rococo.jpg", imagePosition: "",
 	bggLink: "https://boardgamegeek.com/boardgame/296100/rococo-deluxe-edition",
-	weight: 3,
+	weight: 2.5,
 	timeToPlay: "2h", timeToPlayNum: 120,
 	timeToLearn: "15", timeToLearnNum: 15,
 	playerCount: [1, 2, 3, 4, 5],
@@ -347,7 +347,7 @@ games[games.length] = {
 	bestPlayerCount: [2],
 	coop: false,
 	type: "strategy",
-	tags: ["strategy", "combo building", "race"],
+	tags: ["strategy", "engine-building", "race"],
 	expansions: ["Lux et Tenebrae"],
 	description: "<i>Choose your mage, gather essences, craft unique artifacts, and use them to summon dragons, conquer places of power, and achieve victory!</i><br><br>Each player is given a deck of only 8 cards (either randomized or drafted). Before the game begins, players get to inspect their deck, pick their mage, and plan out the most efficient path to getting points. During the game, players will generate and convert resources, trade them for new powers and victory points.<br><br>The game ends when at least one player reaches 10 points at the end of a round, and the player with the most points is deemed the most powerful mage!"
 };
@@ -371,8 +371,8 @@ games[games.length] = {
 	name: "Deception: Murder in Hong Kong",
 	imageName: "deception.jpg", imagePosition: "",
 	bggLink: "https://boardgamegeek.com/boardgame/156129/deception-murder-hong-kong",
-	weight: 1,
-	timeToPlay: "30", timeToPlayNum: 30,
+	weight: 1.5,
+	timeToPlay: "45", timeToPlayNum: 45,
 	timeToLearn: "10", timeToLearnNum: 10,
 	playerCount: [4, 5, 6, 7, 8, 9, 10, 11, 12],
 	recPlayerCount: [5, 6, 7, 8, 9, 10, 11, 12],
@@ -397,8 +397,12 @@ games[games.length] = {
 	type: "deduction",
 	tags: ["deduction", "limited communication"],
 	expansions: ["Animals", "Fables"],
-	description: "You have 5 rounds to let the other players find the secret character among the twelve shown. Play more characters as clues, to suggest similarities or differences with the secret character. After each clue, the other players must discard 1 or more characters from the roster. If they discard the secret character, you all lose! But, if the secret character is the only one left, you all win!"
+	description: "One player has 5 rounds to help the other players find the secret character among the twelve shown. The player plays additional characters as clues, to suggest similarities or differences with the secret character. After each clue, the players guessing must discard a set number of characters from the roster. If they discard the secret character, everyone loses! But, if the secret character is the only one left, everyone wins!"
 };
+
+function roundWeight(weight) {
+	return (weight < 3 ? Math.floor(weight) : Math.ceil(weight));
+}
 
 var collection = document.getElementById("collection");
 games.forEach(addGame);
@@ -407,7 +411,7 @@ games.forEach(addGame);
 function addGame(game, index) {
 	let coopText = '';
 	if (game.coop) coopText = '<div class="coop">co-op</div>';
-	collection.innerHTML += '<div class="card" id="' + index + '" onclick="openWindow(this)" style="background-image: url(\'images/' + game.imageName + '\');' + game.imagePosition + '"><div class="cardInfo w' + Math.floor(game.weight) + '">' + coopText + '<div><i class="material-icons">access_time</i>' + game.timeToPlay + '</div><div>' + game.type + '</div><div><i class="material-icons">extension</i>' + game.weight + '</div></div></div>';
+	collection.innerHTML += '<div class="card" id="' + index + '" onclick="openWindow(this)" style="background-image: url(\'images/' + game.imageName + '\');' + game.imagePosition + '"><div class="cardInfo w' + roundWeight(game.weight) + '">' + coopText + '<div><i class="material-icons">access_time</i>' + game.timeToPlay + '</div><div>' + game.type + '</div><div><i class="material-icons">extension</i>' + game.weight + '</div></div></div>';
 }
 
 
@@ -489,7 +493,7 @@ function openWindow(card) {
 	infoWindowCover.innerHTML = '<img src="images/' + game.imageName + '">';
 	infoWindowPhoto.src = 'setups/' + game.imageName;
 
-	switch(Math.floor(game.weight)) {
+	switch(roundWeight(game.weight)) {
 		case 1:
 			infoWindowWeight.innerHTML = 'light';
 			infoWindowWeight.className = 'box weight1';
