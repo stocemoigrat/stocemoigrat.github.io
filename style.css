@@ -4,7 +4,7 @@ html {
 }
 
 /* Medium devices (Tablets) */
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1000px) {
   html {font-size: 9px;}
 }
 
@@ -281,7 +281,7 @@ body {
 	width: 4rem;
 	height: 4rem;
 	font-size: 3.6rem;
-	padding-top: -2rem;
+	margin-top: -0.2rem;
 	border-bottom-left-radius: 1rem;
 }
 .description {
@@ -295,27 +295,28 @@ body {
 	grid-template-rows: repeat(auto-fit, auto);
 	gap: 1.2rem;
 	align-content: start;
+	margin-top: -13rem;
 }
 #cover {
 	box-sizing: content-box;
-	width:100%;
-	margin-top: -80%;
 	border-radius: 1rem;
 	border-style: solid;
 	border-color: #222;
 	background-color: #222;
 	border-width: 0.8rem;
+	width: 100%;
 	margin-left: -0.8rem;
-	margin-bottom: -1.3rem;
+	margin-bottom: -0.8rem;
 }
 #cover img {
+	display: block;
 	width: 100%;
 	border-radius: 1rem;
 }
 .box {
 	background-color: #555;
 	border-radius: 1rem;
-	padding: 1rem;
+	padding: 0.8rem;
 }
 #weight {
 	font-size: 2rem;
@@ -372,7 +373,7 @@ a {
 	text-decoration: underline;
 }
 .descriptionRight {
-	padding: 0px 1rem;
+	padding: 0px 0.5rem;
 }
 #name {
 	text-align: center;
