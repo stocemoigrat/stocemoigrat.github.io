@@ -37,7 +37,7 @@ button {
 
 body {
 	margin: 0px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Josefin Sans', 'Trebuchet MS', sans-serif;
 	font-size: 1.8rem;
 	color: #eee;
 	background-color: #090909;
@@ -402,7 +402,7 @@ a {
 	border-radius: 4rem;
 }
 .text {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Nunito', 'Trebuchet MS', sans-serif;
 	font-size: 1.6rem;
 }
 .text i {
