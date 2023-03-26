@@ -443,19 +443,21 @@ function toggleDropdown() {
 }
 
 // sort by time or weight
+var sortAsc = true;
 sortGames('time');
 sortGames('weight');
 
 function sortGames(sortBy) {
 	let toSort = Array.prototype.slice.call(collection.children, 0); //  turn NodeList to array
+	let order = (sortAsc ? 1 : -1);
 	
 	if (sortBy == 'time') {
 		toSort.sort(function(a, b) {
-			return games[a.id].timeToPlayNum - games[b.id].timeToPlayNum;
+			return (games[a.id].timeToPlayNum - games[b.id].timeToPlayNum) * order;
 		});
 	} else if (sortBy == 'weight') {
 		toSort.sort(function(a, b) {
-			return games[a.id].weight - games[b.id].weight;
+			return (games[a.id].weight - games[b.id].weight) * order;
 		});
 	}
 
@@ -463,6 +465,19 @@ function sortGames(sortBy) {
 	for(var i = 0, l = toSort.length; i < l; i++) {
 	collection.appendChild(toSort[i]);
 	}
+}
+function flipSortOrder(clickedButton) {
+	let toFlip = Array.prototype.slice.call(collection.children, 0); //  turn NodeList to array
+	toFlip.reverse();
+	collection.innerHTML = "";
+	for(var i = 0, l = toFlip.length; i < l; i++) {
+	collection.appendChild(toFlip[i]);
+	}
+	sortAsc = !sortAsc;
+	if (sortAsc)
+		clickedButton.innerHTML = '<img src="icons/sortAsc.svg">';
+	else
+		clickedButton.innerHTML = '<img src="icons/sortDesc.svg">';
 }
 function sortButtonClicked(sortBy, clickedButton) {
 	let buttons = clickedButton.parentElement.children;
