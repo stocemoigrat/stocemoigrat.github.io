@@ -402,8 +402,11 @@ a {
 	font-size: 2rem;
 	background-color: #eee;
 	color: #222;
-	padding: 0.6rem 0.9rem;
 	border-radius: 4rem;
+	padding-top: 0.7rem;
+	padding-bottom: 0.5rem;
+	padding-left: 0.9rem;
+	padding-right: 0.9rem;
 }
 .text {
 	font-family: 'Nunito', 'Trebuchet MS', sans-serif;
