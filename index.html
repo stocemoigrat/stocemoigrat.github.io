@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito">
 <link rel="stylesheet" href="style.css">
 <link rel="prefetch" href="icons/sortDesc.svg">
+<link rel="prefetch" href="icons/link.svg">
 </head>
 <body>
 
@@ -50,8 +51,11 @@
 
 <div id="fullInfoWindow">
 	<div class="windowContent">
-		<img id="photo">
-		<button id="close" onclick="closeWindow()">&times;</button>
+		<div style="position:relative;">
+			<img id="photo">
+			<button id="close" onclick="closeWindow()">&times;</button>
+			<a id="BGGLink" href="" target="_blank" rel="noopener noreferrer">BGG <img src="icons/link.svg"></a>
+		</div>
 		
 		<div class="description">
 			<div class="descriptionLeft">

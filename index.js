@@ -499,6 +499,7 @@ var playerCounts = document.getElementById("playerCount").children;
 var infoWindowExpansions = document.getElementById("expansions");
 var infoWindowTags = document.getElementById("tags");
 var infoWindowDescription = document.getElementById("description");
+var infoWindowBGGLink = document.getElementById("BGGLink");
 
 function openWindow(card) {
 	let game = games[card.id];
@@ -507,6 +508,7 @@ function openWindow(card) {
 	
 	infoWindowCover.innerHTML = '<img src="images/' + game.imageName + '">';
 	infoWindowPhoto.src = 'setups/' + game.imageName;
+	infoWindowBGGLink.href = game.bggLink;
 
 	switch(roundWeight(game.weight)) {
 		case 1:

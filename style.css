@@ -293,7 +293,28 @@ body {
 	margin-top: -0.2rem;
 	border-bottom-left-radius: 1rem;
 }
+#BGGLink {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	background-color: #222;
+	color: #eee;
+	font-size: 2rem;
+	padding: 1.2rem;
+	border-top-left-radius: 1rem;
+}
+#BGGLink img {
+	width: 0.8em;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	text-decoration: underline;
+}
 .description {
+	position:relative;
 	display: grid;
 	grid-template-columns: 19rem 1fr;
 	padding: 1.2rem;
@@ -374,13 +395,6 @@ body {
 	margin-top: -1.3rem;
 	font-family: 'Nunito', sans-serif;
 	font-size: 1.4rem;
-}
-a {
-	text-decoration: none;
-	color: inherit;
-}
-.box a:hover {
-	text-decoration: underline;
 }
 .descriptionRight {
 	padding: 0px 0.5rem;
