@@ -101,7 +101,7 @@ games[games.length] = {
 	bggLink: "https://boardgamegeek.com/boardgame/169786/scythe",
 	weight: 4,
 	timeToPlay: "2.5h", timeToPlayNum: 150,
-	timeToLearn: "40", timeToLearnNum: 40,
+	timeToLearn: "1h", timeToLearnNum: 60,
 	playerCount: [1, 2, 3, 4, 5, 6, 7],
 	recPlayerCount: [1, 2, 3, 4, 5, 6, 7],
 	bestPlayerCount: [4],
