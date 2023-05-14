@@ -69,7 +69,7 @@ games[games.length] = {
 	bggLink: "https://boardgamegeek.com/boardgame/202426/sidereal-confluence",
 	weight: 3,
 	timeToPlay: "3h", timeToPlayNum: 180,
-	timeToLearn: "30", timeToLearnNum: 30,
+	timeToLearn: "1h", timeToLearnNum: 60,
 	playerCount: [4, 5, 6, 7, 8, 9],
 	recPlayerCount: [5, 6, 7, 8, 9],
 	bestPlayerCount: [6],
@@ -331,9 +331,9 @@ games[games.length] = {
 	bestPlayerCount: [3],
 	coop: false,
 	type: "strategy",
-	tags: ["strategy", "set collection", "deck-building", "area majority"],
+	tags: ["strategy", "area majority", "set collection", "deck-building"],
 	expansions: ["Jewelry Box"],
-	description: "You are the owner of a distinguished tailoring business endeavoring to increase your prestige. Each turn, you play an employee card that allows you to perform a task, such as hiring a new employee for your staff, tailoring exquisite gowns and frock coats to rent or sell, or funding some of the many decorations. However, employees are not always able to perform all tasks, so you must plan carefully how you direct them, especially as each employee grants a unique bonus — including some that generate prestige.<br><br>The Grand Ball ends after seven rounds with a huge fireworks display and final scoring. You will gain prestige points for the sumptuous gowns and frock coats you have rented out to guests at the ball, certain employee bonuses, and the festive decorations you have funded. Whoever has collected the most prestige at the end of the game wins."
+	description: "You are the owner of a distinguished tailoring business endeavoring to increase your prestige. Each turn, you play an employee card that allows you to perform a task, such as hiring more employees, tailoring exquisite gowns and frock coats to rent or sell, or funding some of the many ball decorations. However, employees are not always able to perform all tasks, so you must plan carefully how you direct them, especially as each employee grants a unique bonus — including some that generate prestige.<br><br>The Grand Ball ends after seven rounds with a huge fireworks display and final scoring. You will gain prestige points for the sumptuous gowns and frock coats you have rented out to guests at the ball, certain employee bonuses, and the decorations you have funded. Whoever has collected the most prestige at the end of the game wins."
 };
 games[games.length] = {
 	name: "Res Arcana",
