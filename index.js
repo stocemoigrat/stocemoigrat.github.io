@@ -399,6 +399,38 @@ games[games.length] = {
 	expansions: ["Animals", "Fables"],
 	description: "One player has 5 rounds to help the other players find the secret character among the twelve shown. The player plays additional characters as clues, to suggest similarities or differences with the secret character. After each clue, the players guessing must discard a set number of characters from the roster. If they discard the secret character, everyone loses! But, if the secret character is the only one left, everyone wins!"
 };
+games[games.length] = {
+	name: "Beast",
+	imageName: "beast.jpg", imagePosition: "",
+	bggLink: "https://boardgamegeek.com/boardgame/281549/beast",
+	weight: 3,
+	timeToPlay: "2h", timeToPlayNum: 120,
+	timeToLearn: "30", timeToLearnNum: 30,
+	playerCount: [2, 3, 4],
+	recPlayerCount: [3, 4],
+	bestPlayerCount: [3],
+	coop: false,
+	type: "one vs many",
+	tags: ["one vs many", "hidden movement", "card drafting", "asymmetric"],
+	expansions: [],
+	description: "<i>Dawn breaks and the hunt begins.</i><br><br>One of the players plays as a fearsome beast, ravaging the human settlements. The rest team up as a group of hunters who must track and kill the elusive beast before too many of their kin perish. In order to win, the hunters need to cooperate every step of the way, and the beast must skillfully outmaneuver the hunters. On their own, hunters are never stronger than the Beast. Only when hunters communicate, strategize and combine their actions can they bring down the Beast before it’s too late."
+};
+/*games[games.length] = {
+	name: "Guards of Atlantis II",
+	imageName: "goa2.jpg", imagePosition: "",
+	bggLink: "https://boardgamegeek.com/boardgame/267609/guards-atlantis-ii",
+	weight: 3,
+	timeToPlay: "2.5h", timeToPlayNum: 150,
+	timeToLearn: "40", timeToLearnNum: 40,
+	playerCount: [4, 5, 6, 7, 8, 9, 10],
+	recPlayerCount: ["4, 6, 8", 4, 6, 8],
+	bestPlayerCount: ["4, 6", 4, 6],
+	coop: false,
+	type: "MOBA",
+	tags: ["MOBA", "teams", "conflict", "asymmetric"],
+	expansions: ["Devoted hero pack", "Wayward hero pack"],
+	description: "Guards of Atlantis II is a competitive team-based board game inspired by the MOBA genre of video games.<br><br>In the game, each player controls a single hero and uses a hand of 5 cards to move that hero around the game board, employ special abilities, and attack enemies. Defeating enemy minions earns you coins, which are used to level up and upgrade your hero. Your goal is to help your \"minions\" — units that are not directly controlled by the players — reach the enemy base and capture it.<br><br>The game offers plenty of asymmetry and replayability with 17 unique heroes, each with multiple possible builds."
+};*/
 
 function roundWeight(weight) {
 	return (weight < 3 ? Math.floor(weight) : Math.ceil(weight));
@@ -505,6 +537,14 @@ var infoWindowTags = document.getElementById("tags");
 var infoWindowDescription = document.getElementById("description");
 var infoWindowBGGLink = document.getElementById("BGGLink");
 
+function playerCountToString(playerCount) {
+	if (typeof playerCount[0] === 'string' || playerCount.length < 2) {
+		return playerCount[0];
+	} else {
+		return playerCount[0] + '-' + playerCount[playerCount.length - 1];
+	}
+}
+
 function openWindow(card) {
 	let game = games[card.id];
 	
@@ -542,9 +582,9 @@ function openWindow(card) {
 	infoWindowTimeToLearn.innerHTML = game.timeToLearn;
 	infoWindowTimeToPlay.innerHTML = game.timeToPlay;
 
-	playerCounts[0].innerHTML = '<i class="material-icons">group</i> ' + game.playerCount[0] + (game.playerCount.length > 1 ? '-' + game.playerCount[game.playerCount.length - 1] : '');
-	playerCounts[1].innerHTML = '<i class="material-icons">group</i> ' + game.recPlayerCount[0] + (game.recPlayerCount.length > 1 ? '-' + game.recPlayerCount[game.recPlayerCount.length - 1] : '');
-	playerCounts[2].innerHTML = '<i class="material-icons">group</i> ' + game.bestPlayerCount[0] + (game.bestPlayerCount.length > 1 ? '-' + game.bestPlayerCount[game.bestPlayerCount.length - 1] : '');
+	playerCounts[0].innerHTML = '<i class="material-icons">group</i> ' + playerCountToString(game.playerCount);
+	playerCounts[1].innerHTML = '<i class="material-icons">group</i> ' + playerCountToString(game.recPlayerCount);
+	playerCounts[2].innerHTML = '<i class="material-icons">group</i> ' + playerCountToString(game.bestPlayerCount);
 	
 	if (game.expansions.length) {
 		infoWindowExpansions.parentElement.style.display = 'inline';
