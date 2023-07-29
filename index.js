@@ -396,7 +396,7 @@ games[games.length] = {
 	coop: true,
 	type: "deduction",
 	tags: ["deduction", "limited communication"],
-	expansions: ["Animals", "Fables"],
+	expansions: ["Animals", "Fables", "Spookies"],
 	description: "One player has 5 rounds to help the other players find the secret character among the twelve shown. The player plays additional characters as clues, to suggest similarities or differences with the secret character. After each clue, the players guessing must discard a set number of characters from the roster. If they discard the secret character, everyone loses! But, if the secret character is the only one left, everyone wins!"
 };
 games[games.length] = {
@@ -411,7 +411,7 @@ games[games.length] = {
 	bestPlayerCount: [3],
 	coop: false,
 	type: "one vs many",
-	tags: ["one vs many", "hidden movement", "card drafting", "asymmetric"],
+	tags: ["one vs many", "card drafting", "hidden movement", "asymmetric"],
 	expansions: [],
 	description: "<i>Dawn breaks and the hunt begins.</i><br><br>One of the players plays as a fearsome beast, ravaging the human settlements. The rest team up as a group of hunters who must track and kill the elusive beast before too many of their kin perish. In order to win, the hunters need to cooperate every step of the way, and the beast must skillfully outmaneuver the hunters. On their own, hunters are never stronger than the Beast. Only when hunters communicate, strategize and combine their actions can they bring down the Beast before it’s too late."
 };
