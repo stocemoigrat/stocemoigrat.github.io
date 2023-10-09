@@ -91,7 +91,7 @@ games[games.length] = {
 	bestPlayerCount: [4],
 	coop: false,
 	type: "strategy",
-	tags: ["strategy", "worker placement"],
+	tags: ["strategy", "worker placement", "simultaneous action selection"],
 	expansions: ["Dawn of Technology", "Dahlgaard's Gifts", "Dahlgaard's Academy"],
 	description: "Players take on the roles of Victorian-era magicians, each with a team of apprentices and specialists they can assign to various tasks using worker placement and simultaneous action selection. These tasks include collecting magical components, expanding your assortment of Tricks, and preparing magic shows to perform at the end of each round. The performances take place at the Theater in the form of a tile placement mini-game with lots of player interaction. Performing can earn you money, but ultimately, you are in it for Fame: the more famous you are, the better Tricks you can learn, and the Magician with the most Fame points will win the game."
 };
@@ -414,6 +414,22 @@ games[games.length] = {
 	tags: ["one vs many", "card drafting", "hidden movement", "asymmetric"],
 	expansions: [],
 	description: "<i>Dawn breaks and the hunt begins.</i><br><br>One of the players plays as a fearsome beast, ravaging the human settlements. The rest team up as a group of hunters who must track and kill the elusive beast before too many of their kin perish. In order to win, the hunters need to cooperate every step of the way, and the beast must skillfully outmaneuver the hunters. On their own, hunters are never stronger than the Beast. Only when hunters communicate, strategize and combine their actions can they bring down the Beast before it’s too late."
+};
+games[games.length] = {
+	name: "Septima",
+	imageName: "septima.jpg", imagePosition: "",
+	bggLink: "https://boardgamegeek.com/boardgame/360692/septima",
+	weight: 3,
+	timeToPlay: "2h", timeToPlayNum: 120,
+	timeToLearn: "30", timeToLearnNum: 30,
+	playerCount: [1, 2, 3, 4],
+	recPlayerCount: [1, 2, 3, 4],
+	bestPlayerCount: [1, 2, 3, 4],
+	coop: false,
+	type: "strategy",
+	tags: ["strategy", "simultaneous action selection", "asymmetric"],
+	expansions: ["Shapeshifting & Omens"],
+	description: "<i>Grow your witch coven, enthrall the townsfolk, and rise to power as the new Septima.</i><br><br>As the leader of a powerful coven, you strive to overcome your rivals and become the new High Witch. You will accumulate Wisdom as you practice your craft in the superstitious town of Noctenburg: gather ingredients, brew powerful Potions, perform Rituals, heal the afflicted, and work in the shadows to turn suspicion and anger into support and acceptance.<br><br>Each turn, players plan their actions simultaneously. Each Action gets a powerful bonus if it is chosen by multiple players, but performing them raises suspicion and attracts the attention of the Witch Hunters. Decisions of when to do a shared action (and who to do it with) adds a semi-cooperative touch to a competitive game."
 };
 /*games[games.length] = {
 	name: "Guards of Atlantis II",

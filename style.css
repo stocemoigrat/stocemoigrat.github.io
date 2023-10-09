@@ -319,7 +319,7 @@ a:hover {
 .description {
 	position:relative;
 	display: grid;
-	grid-template-columns: 19rem 1fr;
+	grid-template-columns: 20rem 1fr;
 	padding: 1.2rem;
 	gap: 1.2rem;
 }
