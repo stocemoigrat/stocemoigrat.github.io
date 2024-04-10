@@ -431,6 +431,22 @@ games[games.length] = {
 	expansions: ["Shapeshifting & Omens"],
 	description: "<i>Grow your witch coven, enthrall the townsfolk, and rise to power as the new Septima.</i><br><br>As the leader of a powerful coven, you strive to overcome your rivals and become the new High Witch. You will accumulate Wisdom as you practice your craft in the superstitious town of Noctenburg: gather ingredients, brew powerful Potions, perform Rituals, heal the afflicted, and work in the shadows to turn suspicion and anger into support and acceptance.<br><br>Each turn, players plan their actions simultaneously. Each Action gets a powerful bonus if it is chosen by multiple players, but performing them raises suspicion and attracts the attention of the Witch Hunters. Decisions of when to do a shared action (and who to do it with) adds a semi-cooperative touch to a competitive game."
 };
+games[games.length] = {
+	name: "9 Lives",
+	imageName: "9lives.jpg", imagePosition: "",
+	bggLink: "https://boardgamegeek.com/boardgame/189190/9-lives",
+	weight: 1.5,
+	timeToPlay: "30", timeToPlayNum: 30,
+	timeToLearn: "10", timeToLearnNum: 10,
+	playerCount: [3, 4],
+	recPlayerCount: [3, 4],
+	bestPlayerCount: [4],
+	coop: false,
+	type: "trick-taking",
+	tags: ["trick-taking"],
+	expansions: [],
+	description: "A trick taking game where you always know what suits your opponents are holding. Each round, you’ll bet how many tricks you can win. Are you confident you'll win four hands? Or, do you think you'll be able to sneak one win and tank the other hands?<br><br>Be careful, because every victory will add a card back into your hand! Can you outwit the other players and earn nine points before they do?"
+};
 /*games[games.length] = {
 	name: "Guards of Atlantis II",
 	imageName: "goa2.jpg", imagePosition: "",
