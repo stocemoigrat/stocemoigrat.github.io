@@ -447,6 +447,22 @@ games[games.length] = {
 	expansions: [],
 	description: "A trick taking game where you always know what suits your opponents are holding. Each round, you’ll bet how many tricks you can win. Are you confident you'll win four hands? Or, do you think you'll be able to sneak one win and tank the other hands?<br><br>Be careful, because every victory will add a card back into your hand! Can you outwit the other players and earn nine points before they do?"
 };
+games[games.length] = {
+	name: "Unconscious Mind",
+	imageName: "unconsciousmind.jpg", imagePosition: "",
+	bggLink: "https://boardgamegeek.com/boardgame/329500/unconscious-mind",
+	weight: 4,
+	timeToPlay: "?", timeToPlayNum: 120,
+	timeToLearn: "?", timeToLearnNum: 30,
+	playerCount: [1, 2, 3, 4],
+	recPlayerCount: [2, 3],
+	bestPlayerCount: [3],
+	coop: false,
+	type: "strategy",
+	tags: ["strategy", "worker placement", "set collection", "open drafting", "programmed movement"],
+	expansions: ["Nightmares", "Module box"],
+	description: "<i>Establish yourself as Freud's favored protégé, or remain a footnote in academic history.</i><br><br>Unconscious Mind is a thematic Euro game about the early days of Freudian psychoanalysis. As a member of the Wednesday Psychological Society, you will formulate new therapeutic techniques, publish articles, and help clients resolve their grief by analyzing their dreams. And to stay invigorated, you’ll likely need some coffee—lots of coffee."
+};
 /*games[games.length] = {
 	name: "Guards of Atlantis II",
 	imageName: "goa2.jpg", imagePosition: "",
