@@ -479,6 +479,22 @@ games[games.length] = {
 	expansions: ["Devoted hero pack", "Wayward hero pack"],
 	description: "Guards of Atlantis II is a competitive team-based board game inspired by the MOBA genre of video games.<br><br>In the game, each player controls a single hero and uses a hand of 5 cards to move that hero around the game board, employ special abilities, and attack enemies. Defeating enemy minions earns you coins, which are used to level up and upgrade your hero. Your goal is to help your \"minions\" — units that are not directly controlled by the players — reach the enemy base and capture it.<br><br>The game offers plenty of asymmetry and replayability with 17 unique heroes, each with multiple possible builds."
 };
+games[games.length] = {
+	name: "Emberheart",
+	imageName: "emberheart.jpg", imagePosition: "",
+	bggLink: "https://boardgamegeek.com/boardgame/452817/emberheart",
+	weight: 2.5,
+	timeToPlay: "2h", timeToPlayNum: 120,
+	timeToLearn: "20", timeToLearnNum: 20,
+	playerCount: [2, 3, 4],
+	recPlayerCount: [2, 3, 4],
+	bestPlayerCount: [2, 3, 4],
+	coop: false,
+	type: "strategy",
+	tags: ["strategy", "worker placement", "set collection"],
+	expansions: [],
+	description: "Recruit heroes, rescue dragons, train your own dragon companion, and stand against the dragon poachers!"
+};
 
 function roundWeight(weight) {
 	return (weight < 3 ? Math.floor(weight) : Math.ceil(weight));
