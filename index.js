@@ -364,7 +364,7 @@ games[games.length] = {
 	coop: false,
 	type: "abstract",
 	tags: ["abstract", "open drafting", "pattern building"],
-	expansions: [],
+	expansions: ["Life", "Glory"],
 	description: "Build the most beautiful stained glass window by drafting dice and placing them on your player board. Each board has some restrictions on which color or value of dice can be placed there. While the game starts off with many possibilities, later rounds will prove to be a real brain burner!"
 };
 games[games.length] = {
@@ -494,6 +494,22 @@ games[games.length] = {
 	tags: ["strategy", "worker placement", "set collection"],
 	expansions: [],
 	description: "Recruit heroes, rescue dragons, train your own dragon companion, and stand against the dragon poachers!"
+};
+games[games.length] = {
+	name: "Zoo Vadis",
+	imageName: "zoovadis.jpg", imagePosition: "",
+	bggLink: "https://boardgamegeek.com/boardgame/368061/zoo-vadis",
+	weight: 2,
+	timeToPlay: "40", timeToPlayNum: 40,
+	timeToLearn: "10", timeToLearnNum: 10,
+	playerCount: [3, 4, 5, 6, 7],
+	recPlayerCount: [4, 5, 6, 7],
+	bestPlayerCount: [5, 6],
+	coop: false,
+	type: "negotiation",
+	tags: ["negotiation", "race", "asymmetric"],
+	expansions: [],
+	description: "<i>What if the animals were the ones who ran the zoo? Through crafty politics, you must ensure that your species gets to become the zoo's mascot!</i><br><br>Race to the zoo's Star Exhibit and collect as many laurels as you can by negotiating, bribing, and trading. The game ends immediately when the Star Exhibit is full. Only the animals who have reached the Star Exhibit qualify for victory, and the winner is the player with the most laurels."
 };
 
 function roundWeight(weight) {
