@@ -501,7 +501,7 @@ games[games.length] = {
 	bggLink: "https://boardgamegeek.com/boardgame/368061/zoo-vadis",
 	weight: 2,
 	timeToPlay: "40", timeToPlayNum: 40,
-	timeToLearn: "10", timeToLearnNum: 10,
+	timeToLearn: "20", timeToLearnNum: 20,
 	playerCount: [3, 4, 5, 6, 7],
 	recPlayerCount: [4, 5, 6, 7],
 	bestPlayerCount: [5, 6],
@@ -510,6 +510,22 @@ games[games.length] = {
 	tags: ["negotiation", "race", "asymmetric"],
 	expansions: [],
 	description: "<i>What if the animals were the ones who ran the zoo? Through crafty politics, you must ensure that your species gets to become the zoo's mascot!</i><br><br>Race to the zoo's Star Exhibit and collect as many laurels as you can by negotiating, bribing, and trading. The game ends immediately when the Star Exhibit is full. Only the animals who have reached the Star Exhibit qualify for victory, and the winner is the player with the most laurels."
+};
+games[games.length] = {
+	name: "Sushi Go Party!",
+	imageName: "sushigoparty.jpg", imagePosition: "",
+	bggLink: "https://boardgamegeek.com/boardgame/192291/sushi-go-party",
+	weight: 1,
+	timeToPlay: "20", timeToPlayNum: 20,
+	timeToLearn: "10", timeToLearnNum: 10,
+	playerCount: [2, 3, 4, 5, 6, 7, 8],
+	recPlayerCount: [3, 4, 5, 6, 7, 8],
+	bestPlayerCount: [4, 5],
+	coop: false,
+	type: "party",
+	tags: ["party", "card drafting", "set collection"],
+	expansions: [],
+	description: "In this fast-playing card game, the goal is to grab the best combination of sushi dishes as they whiz by. Score points for making the most maki rolls or for collecting a full set of sashimi. Dip your favorite nigiri in wasabi to triple its value. But be sure to leave room for dessert or else you’ll eat into your score! But be careful which sushi you allow your friends to take; it might be just what they need to beat you!"
 };
 
 function roundWeight(weight) {
